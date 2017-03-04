@@ -26,7 +26,7 @@ $("#submitBtn").on("click", function() {
 
 		console.log(result);
 
-		console.log(result.response.docs[0].headline.kicker);
+		console.log(result.docs[])
 
 	}).fail(function(err) {
 
