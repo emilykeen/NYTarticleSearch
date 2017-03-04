@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-// When user clicks 
+// When user clicks "Search"...
+$
 
 
 
