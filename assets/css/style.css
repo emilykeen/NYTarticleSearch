@@ -1,16 +1,19 @@
-html, body {
-	background: 90%;
-}
 
 
 #maincontainer{
-	font-family: "imperial";
-    padding-right: 20px;
-    padding-left: 20px;
-	margin-left: 20%;
-	margin-right: 20%;
+    font-family: "imperial";
+    margin-left: 10%;
+	margin-right: 10%;
+	font-size: 17px;
 }
 .container{
 	text-align: center;
 	font-family: "cheltenham";
+
+}
+
+.panelName {
+	font-family: "imperial";
+	font-size: 37px;
+	font-weight: bold;
 }
