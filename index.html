@@ -12,41 +12,54 @@
     <div id="maincontainer">
       <div class="jumbotron">
         <div class="container">
+
+     
           <h1>New York Times Search</h1>
+          <img  class="news-image" src="assets/images/99e012df18a29c27abf1059707d019ff_newspaper20clipart-newspaper-clipart_236-179.jpeg">
+    
         </div>
       </div>
-      <br>
       <form>
-        <div class="form-group">
-          <label for="Search Terms">Search Term:</label>
-          <input type="text" class="form-control" id="formGroup" placeholder="">
-        </div>
-        <div class="form-group">
-          <label for="num-records">Number of Records to Retrieve:</label>
-          <select class="form-control" id="numRecords">
-            <option value="1">1</option>
-            <option value="5" selected>5</option>
-            <option value="10">10</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="Start Year Terms">Start Year:</label>
-          <input type="text" class="form-control" id="startYear" placeholder="">
-        </div>
-        <div class="form-group">
-          <label for="End Year Terms">End Year:</label>
-          <input type="text" class="form-control" id="endYear" placeholder="">
-        </div>
-        <button type="button" class="btn btn-default">Search</button>
-        <button type="button" class="btn btn-default">Clear</button>
         <div class="row">
-        <br>
           <div class="col-lg-12">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 class="panel-title panelName">Search Results</h3>
+                <h3 class="panel-title panelName">Search Parameters</h3>
               </div>
-              <div class="panel-body" id="searchRes">
+              <div class="form-group">
+                <label for="Search Terms">Search Term:</label>
+                <input type="text" class="form-control" id="formGroup" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="num-records">Number of Records to Retrieve:</label>
+                <select class="form-control" id="numRecords">
+                  <option value="1">1</option>
+                  <option value="5" selected>5</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="Start Year Terms">Start Year:</label>
+                <input type="text" class="form-control" id="startYear" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="End Year Terms">End Year:</label>
+                <input type="text" class="form-control" id="endYear" placeholder="">
+              </div>
+          
+            <button type="button" class="btn btn-default">Search</button>
+            <button type="button" class="btn btn-default">Clear</button>
+            </div>
+            <div class="row">         
+              
+              <div class="col-lg-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title panelName">Search Results</h3>
+                  </div>
+                  <div class="panel-body" id="searchRes">
+                  </div>
+                </div>
               </div>
             </div>
           </div>

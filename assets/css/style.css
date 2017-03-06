@@ -1,19 +1,47 @@
 
-
+.jumbotron{
+	padding-bottom: none;
+	margin-bottom: none;
+	border-color: #808080;
+	border: solid; 
+	border-width: 7px;
+}
 #maincontainer{
     font-family: "imperial";
     margin-left: 10%;
 	margin-right: 10%;
 	font-size: 17px;
+	margin-bottom: none;
+	padding-top: none;
+	line-height: 20px;		
 }
+
 .container{
 	text-align: center;
 	font-family: "cheltenham";
+	height: 50px;
+	margin-top: none;
+
 
 }
+.news-image{
+	padding: none;
+	position: relative;
+	width: 100px;
+	height: 75px;
+	float: left;
+	top: -100px;
+	left: 100px;
 
+
+}
+.panel-heading{
+	border: solid;
+	margin-top: none;
+}
 .panelName {
 	font-family: "imperial";
 	font-size: 37px;
 	font-weight: bold;
+
 }
