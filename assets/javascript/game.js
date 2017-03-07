@@ -75,6 +75,8 @@ $(document).ready(function() {
 
 		event.preventDefault();
 
+		$("#searchRes").empty();
+
 		query = $("#formGroup").val().trim();
 		startYear = $("#startYear").val().trim();
 		endYear = $("#endYear").val().trim();
